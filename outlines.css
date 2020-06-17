@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+* {
+  position: relative;
+  padding: 25px 25px 20px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+*:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+*::before {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 10px;
+  letter-spacing: 0.04em;
+}
+/*
+html::before {
+  content: "html";
+}
+
+body::before {
+  content: "body";
+}
+
+main::before {
+  content: "main";
+}
+
+header::before {
+  content: "header";
+}
+
+footer::before {
+  content: "footer";
+}
+
+section::before {
+  content: "section";
+}
+
+article::before {
+  content: "article";
+}
+
+aside::before {
+  content: "aside";
+}
+
+nav::before {
+  content: "nav";
+}
+*/
